@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-08-20T01:10:53Z" name="Default suite" finished-at="2018-08-20T01:11:12Z" duration-ms="18525">
+    <groups>
+    </groups>
+    <test started-at="2018-08-20T01:10:53Z" name="Default test" finished-at="2018-08-20T01:11:12Z" duration-ms="18525">
+      <class name="fluentWaitDemo.FluentWaitDemo">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:fluentWaitDemo.FluentWaitDemo@618425b5]" started-at="2018-08-20T01:10:53Z" name="startReport" finished-at="2018-08-20T01:10:54Z" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="FluentWait_Demo()[pri:0, instance:fluentWaitDemo.FluentWaitDemo@618425b5]" started-at="2018-08-20T01:10:54Z" name="FluentWait_Demo" finished-at="2018-08-20T01:11:09Z" duration-ms="15493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FluentWait_Demo -->
+        <test-method is-config="true" signature="AddStatus(org.testng.ITestResult)[pri:0, instance:fluentWaitDemo.FluentWaitDemo@618425b5]" started-at="2018-08-20T01:11:09Z" name="AddStatus" finished-at="2018-08-20T01:11:09Z" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FluentWait_Demo status=SUCCESS method=FluentWaitDemo.FluentWait_Demo()[pri:0, instance:fluentWaitDemo.FluentWaitDemo@618425b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddStatus -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:fluentWaitDemo.FluentWaitDemo@618425b5]" started-at="2018-08-20T01:11:09Z" name="tearDown" finished-at="2018-08-20T01:11:12Z" duration-ms="2646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- fluentWaitDemo.FluentWaitDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
